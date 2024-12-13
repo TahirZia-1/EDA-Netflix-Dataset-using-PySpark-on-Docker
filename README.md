@@ -40,15 +40,23 @@ and
 http://localhost:4040/?token=your-token
 ```
 
--p 8888:8888: Maps the Jupyter Notebook port (if needed).
+### Explanation
 
--p 4040:4040: Maps the Spark Web UI port.
+```bash
+-p 8888:8888 #Maps the Jupyter Notebook port (if needed).
+```
 
--v C:\Users\user\Desktop\EDA:/home/jovyan/work: Shares your local folder with the container.
+```bash
+-p 4040:4040 #Maps the Spark Web UI port.
+```
 
---name pyspark_container: Assigns a name to the container.
+```bash
+-v C:\Users\user\Desktop\EDA:/home/jovyan/work #Shares your local folder with the container.
+```
 
-7. Open the Jupyter Notebook from the Link in the browser.
+```bash
+--name pyspark_container #Assigns a name to the container.
+```
 
 ### Load the Dataset in pyspark in Jupyter Notebook
 
