@@ -29,7 +29,7 @@ docker pull jupyter/pyspark-notebook
 docker run -p 8888:8888 -p 4040:4040 -v C:\Users\user\Desktop\EDA:/home/jovyan/work --name pyspark_container jupyter/pyspark-notebook
 ```
 
-6. After running this command links will be present at the end copy it and run it on your browser. Links will look like this:
+6. After running this command links will be present at the end, copy it and run it on your browser. Links will look like this:
 
 ```bash
 http://localhost:8888/?token=your-token
